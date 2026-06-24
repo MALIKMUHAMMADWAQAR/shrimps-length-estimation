@@ -38,15 +38,6 @@ length without manual handling:
 - Two new shrimp datasets (instance segmentation + mask-to-centerline) and a
   full pipeline achieving **MAE 1.02 cm / RMSE 1.27 cm** size estimation.
 
-## Repository structure
-
-```
-src/        models · datasets · losses · trainers · evaluators · utils · visualization
-scripts/    train.py · evaluate.py · inference.py · export_onnx.py
-configs/    train.yaml · val.yaml · infer.yaml
-docs/       architecture.md · training.md · evaluation.md · dataset.md
-tests/      unit & end-to-end tests
-```
 
 ## Installation
 
@@ -62,18 +53,6 @@ pip install -e .                        # optional: install as a package
 PyTorch wheels: install the CPU or CUDA build appropriate for your machine from
 the [official selector](https://pytorch.org/get-started/locally/).
 
-## Dataset preparation
-
-The original datasets are available on request from the paper's corresponding
-author. Arrange the mask-to-centerline dataset as:
-
-```
-datasets/centerline/{train,val,test}/{images,masks,centerlines}/<stem>.png
-```
-
-See [`docs/dataset.md`](docs/dataset.md) for details and the imaging setup. To
-experiment immediately without data, every script supports a `--synthetic` mode
-backed by a procedural shrimp generator.
 
 ## Training
 
