@@ -98,7 +98,7 @@ python scripts/export_onnx.py --checkpoint checkpoints/centerline_model.pth \
 ## Results
 
 <div align="center">
-<img src="assets/qualitative_results.png" width="85%" alt="Qualitative results"/>
+<img src="assets/Model_Comparative_Results.png" width="85%" alt="Qualitative results"/>
 </div>
 
 | Stage | Metric | Score (paper) |
