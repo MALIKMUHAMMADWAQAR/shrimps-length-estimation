@@ -5,7 +5,7 @@
 
 
 
-<img src="assets/teaser.png" width="85%" alt="Teaser: shrimp centerlines and estimated sizes"/>
+<img src="assets/Results_on_test_set.png" width="85%" alt="Teaser: shrimp centerlines and estimated sizes"/>
 
 </div>
 
@@ -25,7 +25,7 @@ length without manual handling:
    length is converted to millimetres via calibration.
 
 <div align="center">
-<img src="assets/architecture.png" width="85%" alt="Framework architecture"/>
+<img src="assets/Framework for shrimp centerline.png" width="85%" alt="Framework architecture"/>
 </div>
 
 ## Key contributions
