@@ -1,0 +1,43 @@
+cff-version: 1.2.0
+message: "If you use this software or reconstruction, please cite the original paper below."
+title: "A Dual-Segmentation Framework for the Automatic Detection and Size Estimation of Shrimp (reference implementation)"
+type: software
+authors:
+  - family-names: "Waqar"
+    given-names: "Malik Muhammad"
+  - family-names: "Ali"
+    given-names: "Hassan"
+  - family-names: "Zhou"
+    given-names: "Heng"
+  - family-names: "Mohamed"
+    given-names: "Heba G."
+  - family-names: "Kim"
+    given-names: "Sang Cheol"
+  - family-names: "Strzelecki"
+    given-names: "Michal"
+repository-code: "https://github.com/MALIKMUHAMMADWAQAR/shrimps-length-estimation"
+license: MIT
+preferred-citation:
+  type: article
+  title: "A Dual-Segmentation Framework for the Automatic Detection and Size Estimation of Shrimp"
+  authors:
+    - family-names: "Waqar"
+      given-names: "Malik Muhammad"
+    - family-names: "Ali"
+      given-names: "Hassan"
+    - family-names: "Zhou"
+      given-names: "Heng"
+    - family-names: "Mohamed"
+      given-names: "Heba G."
+    - family-names: "Kim"
+      given-names: "Sang Cheol"
+    - family-names: "Strzelecki"
+      given-names: "Michal"
+  journal: "Sensors"
+  year: 2025
+  volume: 25
+  issue: 18
+  start: 5830
+  doi: "10.3390/s25185830"
+  publisher:
+    name: "MDPI"

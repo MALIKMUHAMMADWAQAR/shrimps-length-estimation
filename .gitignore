@@ -1,0 +1,44 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Testing / coverage
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Editor / OS
+.vscode/
+.idea/
+.DS_Store
+
+# Experiment artefacts (keep the directories via .gitkeep)
+checkpoints/*
+!checkpoints/.gitkeep
+logs/*
+!logs/.gitkeep
+results/*
+!results/.gitkeep
+datasets/*
+!datasets/.gitkeep
+
+# Model / data binaries
+*.pth
+*.pt
+*.onnx
+*.ckpt
+
+# Keep curated assets tracked (do not ignore assets/)

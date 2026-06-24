@@ -1,0 +1,20 @@
+# Core runtime dependencies for the dual-segmentation shrimp framework.
+# Install CPU or CUDA builds of torch/torchvision as appropriate for your machine
+# (see https://pytorch.org/get-started/locally/).
+torch>=2.0
+torchvision>=0.15
+numpy>=1.24
+Pillow>=9.0
+PyYAML>=6.0
+
+# Testing & linting.
+pytest>=7.0
+ruff>=0.4
+
+# ONNX export (used by scripts/export_onnx.py).
+onnx>=1.14
+
+# Optional: official COCO AP evaluation for the instance-segmentation stage.
+# pycocotools>=2.0
+# Optional: ONNX runtime for verifying exported models.
+# onnxruntime>=1.16

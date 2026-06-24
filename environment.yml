@@ -1,0 +1,20 @@
+name: shrimp-dualseg
+channels:
+  - pytorch
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.10
+  - pip>=23
+  - numpy>=1.24
+  - pillow>=9.0
+  - pyyaml>=6.0
+  - pytorch>=2.0
+  - torchvision>=0.15
+  # Uncomment the following line on a CUDA machine to pull the GPU build:
+  # - pytorch-cuda=12.1
+  - pip:
+      - pytest>=7.0
+      - onnx>=1.14
+      # - pycocotools>=2.0
+      # - onnxruntime>=1.16
