@@ -2,13 +2,8 @@
 
 # A Dual-Segmentation Framework for the Automatic Detection and Size Estimation of Shrimp
 
-Reference PyTorch implementation of
-[Waqar et al., *Sensors* 2025, 25(18), 5830](https://doi.org/10.3390/s25185830).
 
-[![Paper](https://img.shields.io/badge/DOI-10.3390%2Fs25185830-blue)](https://doi.org/10.3390/s25185830)
-[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
-[![Python](https://img.shields.io/badge/python-3.9%2B-blue)](https://www.python.org/)
-[![PyTorch](https://img.shields.io/badge/PyTorch-2.0%2B-ee4c2c)](https://pytorch.org/)
+
 
 <img src="assets/teaser.png" width="85%" alt="Teaser: shrimp centerlines and estimated sizes"/>
 
