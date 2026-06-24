@@ -127,12 +127,10 @@ Full tables are in [`docs/evaluation.md`](docs/evaluation.md).
 
 ## Acknowledgements
 
-This code reconstructs the method of Waqar et al. (*Sensors* 2025). It builds on
-ideas from RTMDet, DeepLabv3, U-Net, MobileNetV2 and the Zhang–Suen thinning
-algorithm. Princess Nourah bint Abdulrahman University Researchers Supporting
-Project number (PNURSP2025R140) is acknowledged in the original paper.
+This code reconstructs and builds on ideas from RTMDet, DeepLabv3, U-Net, MobileNetV2, and the Zhang–Suen thinning
+algorithm.
 
 ## Contact
 
 - Original corresponding author: Malik Muhammad Waqar (see the paper for details).
-- Implementation issues: please open a GitHub issue. _Maintainer contact: `<add-your-contact-here>`._
+- Implementation issues: please open a GitHub issue. _Maintainer contact: 'malikwaqarhaider@gmail.com'
