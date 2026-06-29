@@ -132,5 +132,5 @@ algorithm.
 
 ## Contact
 
-- Original corresponding author: Malik Muhammad Waqar (see the paper for details).
-- Implementation issues: please open a GitHub issue. _Maintainer contact: 'malikwaqarhaider@gmail.com'
+- corresponding author: Malik Muhammad Waqar
+
